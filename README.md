@@ -14,7 +14,7 @@ SSRF-SCAN是一款被动式扫描ssrf的burpsuite插件，通过eyes.sh来探测
 
 - 下载插件包并编译成jar包后，在burpsuite上安装
 
-  ![](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20221213224745638.png)
+  ![](https://pingo78.oss-cn-hangzhou.aliyuncs.com/images/image-20221213224745638.png)
 
 - 配置第一步请求地址和token
 
