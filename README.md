@@ -8,7 +8,7 @@ SSRF-SCAN是一款被动式扫描ssrf的burpsuite插件，通过eyes.sh来探测
 
 ![](https://pingo78.oss-cn-hangzhou.aliyuncs.com/images/image-20221213223910640.png)
 
-- git clone https://github.com/M1k0er/SSRF-SCAN
+- git clone https://github.com/M1k0er/SSRF-SCAN.git
 
 - mvn package
 
