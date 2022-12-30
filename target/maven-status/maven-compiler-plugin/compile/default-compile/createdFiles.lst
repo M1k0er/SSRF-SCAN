@@ -1,0 +1,10 @@
+config\BurpConfig.class
+burp\BurpExtender.class
+ui\QueueTag$1.class
+ui\ConfigTag$1.class
+ui\QueueTag.class
+ui\Tags.class
+burp\BurpExtender$CustomScanIssue.class
+ui\ConfigTag.class
+ui\QueueTag$TablesData.class
+ui\QueueTag$URLTable.class

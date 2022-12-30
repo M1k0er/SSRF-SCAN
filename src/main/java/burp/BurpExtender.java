@@ -97,7 +97,7 @@ public class BurpExtender implements IBurpExtender,IScannerCheck {
 	public boolean dnslogResult(String payload,String suburl) {
 		String token = this.tags.configTagFunction().jTextFieldToken();
 		String subkey = suburl.replace(".eyes.sh","");
-		String platformUrl = String.format("http://eyes.sh/api/web/%s/%s/?token=%s", subkey, payload, token);
+		String platformUrl = String.format("http://eyes.sh/api/dns/%s/%s/?token=%s", subkey, payload, token);
 		try {
 			byte[] rawRequest = this.helpers.buildHttpRequest(new URL(platformUrl));
 			IHttpService service = this.helpers.buildHttpService("eyes.sh", 80, "HTTP");
